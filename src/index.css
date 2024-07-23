@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Baloo 2", sans-serif;
+  transition: all ease-in-out 0.5s;
+  /* overflow: hidden; */
+}
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: #000;
+}
+/* .logo{
+  width: 100%;
+} */
+
+.logo img{
+  width: 70%;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  font-size: 20px;
+  padding: 30px;
+  font-weight: 700;
+}
+
+li:hover{
+  color:#D28C63
+}
+
+/* Hero section */
+
+.heroSection{
+  padding: 30px;
+}
+
+
+
+.images{
+  display: flex;
+  gap: 10px;
+  /* -webkit-box-reflect: below; */
+ 
+}
+
+.firstTwo{
+  gap: 10px;
+  padding-top: 20px;
+ 
+}
+
+.heroSection h1{
+  font-size: 60px;
+}
+
+.heroSection h5{
+  font-size: 30px;
+  padding:10px 0;
+
+  span{
+    color: #D28C63;
+    font-weight: 700;
+  }
+}
+
+.heroSection p{
+  font-size: 13px;
+  font-weight: 900;
+  padding-bottom: 10px;
+
+  span{
+    color: #D28C63;
+    font-weight: 900px;
+   
+  }
+}
+
+.aboutSection{
+  display: flex;
+  padding: 20px 30px;
+  align-items: center;
+  justify-content: center;
+
+  h1{
+    color: #CC7C4D;
+    font-size: 25px;
+    font-weight: 900;
+  }
+
+  h2{
+    color: #CC7C4D;
+    font-size: 25px;
+    font-weight: 900;
+    padding: 10px 0;
+  }
+  p{
+    line-height: 30px;
+    color: #062E3D;
+    font-weight: 700;
+  }
+
+}
+
+.Services{
+  background: #0B394D;
+  color: #fff;
+  padding:40px 30px ;
+  margin: 20px 0;
+
+  h1{
+    font-size: 25px;
+    padding: 10px 0;
+  }
+
+  .wrapper{
+    display: flex;
+    padding: 40px 0;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  /* .cards{
+    gap: 50px;
+  } */
+}
+.cards{
+  margin: 0 20px;
+  padding: 10px 0;
+  background: #123E51;
+  p{
+    padding: 20px 0;
+  }
+}
+
+.cards h1{
+  color: #CC7C4D;
+  border-bottom: 2px solid #CC7C4D;
+}
+
+.productsBrands{
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.productsBrands h1{
+  color: #CC7C4D;
+  
+}
+button{
+  padding: 10px 20px;
+  background: #062E3D;
+  color: #fff;
+  border: none;
+  margin: 20px 0;
+}
+ 
+button:hover{
+  background: #fff;
+  color: #062E3D;
+  border:2px solid #062E3D;
+}
+
+.formPage{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  background: #F0F1F3;
+  padding: 20px;
+}
+
+.forms{
+ 
+ margin: 30px;
+}
+
+input{
+width: 100%;
+margin: 10px 0;
+padding: 20px;
+background: #FFFFFF;
+outline: none;
+border: none;
+}
+
+textarea{
+  width: 100%;
+  margin: 10px 0 0 0;
+  padding: 40px 20px;
+  background: #FFFFFF;
+  outline: none;
+  border: none;
+}
+
+
+.form button{
+width: 100%;
+margin: 0 20px;
+padding: 20px 10px;
+font-size: 16px;
+font-weight: 900;
+}
+
+.form h1{
+  color: #CC7C4D;
+  font-weight: 900;
+  font-size: 25;
+  padding: 10px 0;
+}
+
+.form p{
+  font-weight: 700;
+  color: #123E51;
+  line-height: 20px;
+  
+}
+
+.image{
+  position: relative;
+  width: 100%;
+}
+
+.image img{
+  width: 100%;
+}
+
+.contact1{
+  position: absolute;
+  color: #FFFFFF;
+  z-index: 200;
+ padding: 80px 30px;
+}
+
+.con1{
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  gap: 30px;
+  padding: 30px 0;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+ text-align: center;
+}
+.image1{
+  
+  width: 100%;
+  margin: 0 30px;
+}
+
+.image1 img{
+width: 300px;
+}
+
